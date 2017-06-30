@@ -22,7 +22,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "acorn": "^3.3.0",
-    "acorn-jsx": "^3.0.0"
+    "acorn-jsx": "https://github.com/geosolutions-it/acorn-jsx/tarball/master"
   },
   "devDependencies": {
     "browserify": "^7.0.0",
