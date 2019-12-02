@@ -61,7 +61,7 @@
 var astNodeTypes = require("./lib/ast-node-types"),
     commentAttachment = require("./lib/comment-attachment"),
     TokenTranslator = require("./lib/token-translator"),
-    acornJSX = require("acorn-jsx/inject"),
+    acornJSX = require("@geosolutions/acorn-jsx/inject"),
     rawAcorn = require("acorn");
 
 
