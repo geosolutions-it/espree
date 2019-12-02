@@ -1,10 +1,10 @@
 {
-  "name": "espree",
+  "name": "@geosolutions/espree",
   "description": "An Esprima-compatible JavaScript parser built on Acorn",
   "author": "Nicholas C. Zakas <nicholas+npm@nczconsulting.com>",
   "homepage": "https://github.com/eslint/espree",
   "main": "espree.js",
-  "version": "3.1.7",
+  "version": "3.1.8",
   "files": [
     "lib",
     "espree.js"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/eslint/espree.git"
+    "url": "git+https://github.com/geosolutions-it/espree.git"
   },
   "bugs": {
     "url": "http://github.com/eslint/espree.git"
@@ -22,7 +22,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "acorn": "^3.3.0",
-    "acorn-jsx": "https://github.com/geosolutions-it/acorn-jsx/tarball/master"
+    "@geosolutions/acorn-jsx": "4.0.2"
   },
   "devDependencies": {
     "browserify": "^7.0.0",
@@ -58,5 +58,10 @@
     "alpharelease": "eslint-prelease alpha",
     "betarelease": "eslint-prelease beta",
     "browserify": "node Makefile.js browserify"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
   }
 }

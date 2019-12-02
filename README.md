@@ -1,3 +1,8 @@
+# Fork info
+This repo has been forked because we needed to add [this](https://github.com/geosolutions-it/espree/tree/58084900bd57afdcfe0b9dca80ca9a1419c1d693) fix
+We are going to publish the **release** branch on npm GeoSolutions registry
+
+
 # Espree
 
 Espree started out as a fork of [Esprima](http://esprima.org) v1.2.2, the last stable published released of Esprima before work on ECMAScript 6 began. Espree is now built on top of [Acorn](https://github.com/ternjs/acorn), which has a modular architecture that allows extension of core functionality. The goal of Espree is to produce output that is similar to Esprima with a similar API so that it can be used in place of Esprima.
